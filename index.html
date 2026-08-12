@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adhiparasakthi Engineering College — Sign In</title>
+<style>
+  :root{
+    --maroon:#8E1B1B;
+    --maroon-deep:#5E1010;
+    --red:#C42B2B;
+    --gold:#C9A227;
+    --paper:#FBF6EC;
+    --ink:#3A2323;
+    --slate:#7A6A5D;
+    --radius:16px;
+  }
+
+  *{box-sizing:border-box;}
+
+  html,body{
+    margin:0;
+    padding:0;
+    min-height:100%;
+    font-family:"Segoe UI",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;
+    background:
+      radial-gradient(circle at 15% 10%, rgba(201,162,39,0.10), transparent 45%),
+      radial-gradient(circle at 85% 90%, rgba(142,27,27,0.08), transparent 50%),
+      var(--paper);
+    color:var(--ink);
+  }
+
+  .screen{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:40px 20px;
+  }
+
+  .card{
+    width:100%;
+    max-width:400px;
+    background:#fff;
+    border-radius:var(--radius);
+    padding:40px 36px 34px;
+    box-shadow:0 25px 50px -20px rgba(94,16,16,0.28);
+    border:1px solid rgba(201,162,39,0.25);
+    text-align:center;
+  }
+
+  .logo-wrap{
+    display:flex;
+    justify-content:center;
+    margin-bottom:14px;
+  }
+
+  .logo-wrap img{
+    width:96px;
+    height:96px;
+    object-fit:contain;
+    border-radius:50%;
+    box-shadow:0 0 0 3px #fff, 0 0 0 4.5px var(--gold);
+  }
+
+  .college-name{
+    font-size:15.5px;
+    font-weight:700;
+    letter-spacing:.3px;
+    color:var(--maroon-deep);
+    margin:2px 0 2px;
+    line-height:1.35;
+  }
+
+  .college-loc{
+    font-size:11.5px;
+    letter-spacing:1.5px;
+    text-transform:uppercase;
+    color:var(--slate);
+    margin-bottom:6px;
+  }
+
+  .motto{
+    font-size:10.5px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    color:var(--red);
+    font-weight:700;
